@@ -1,0 +1,403 @@
+Script started on Thu 02 Apr 2015 10:26:00 PM PDT
+]0;dpfouts@ubuntu: ~/cs202/project8adpfouts@ubuntu:~/cs202/project8a$ make clean
+rm  *.o fcd
+]0;dpfouts@ubuntu: ~/cs202/project8adpfouts@ubuntu:~/cs202/project8a$ make
+g++ -c class.cpp -o class.o
+g++ fcd.cpp class.o -o fcd
+]0;dpfouts@ubuntu: ~/cs202/project8adpfouts@ubuntu:~/cs202/project8a$ ./fcd
+SELECT NUMBER OF PLAYERS (2-8):3
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+1
+
+  suit: spades	  rank: two	  location: unshuffled
+  suit: clubs	  rank: two	  location: unshuffled
+  suit: hearts	  rank: two	  location: unshuffled
+  suit: diomond	  rank: two	  location: unshuffled
+  suit: spades	  rank: three	  location: unshuffled
+  suit: clubs	  rank: three	  location: unshuffled
+  suit: hearts	  rank: three	  location: unshuffled
+  suit: diomond	  rank: three	  location: unshuffled
+  suit: spades	  rank: four	  location: unshuffled
+  suit: clubs	  rank: four	  location: unshuffled
+  suit: hearts	  rank: four	  location: unshuffled
+  suit: diomond	  rank: four	  location: unshuffled
+  suit: spades	  rank: five	  location: unshuffled
+  suit: clubs	  rank: five	  location: unshuffled
+  suit: hearts	  rank: five	  location: unshuffled
+  suit: diomond	  rank: five	  location: unshuffled
+  suit: spades	  rank: six	  location: unshuffled
+  suit: clubs	  rank: six	  location: unshuffled
+  suit: hearts	  rank: six	  location: unshuffled
+  suit: diomond	  rank: six	  location: unshuffled
+  suit: spades	  rank: seven	  location: unshuffled
+  suit: clubs	  rank: seven	  location: unshuffled
+  suit: hearts	  rank: seven	  location: unshuffled
+  suit: diomond	  rank: seven	  location: unshuffled
+  suit: spades	  rank: eight	  location: unshuffled
+  suit: clubs	  rank: eight	  location: unshuffled
+  suit: hearts	  rank: eight	  location: unshuffled
+  suit: diomond	  rank: eight	  location: unshuffled
+  suit: spades	  rank: nine	  location: unshuffled
+  suit: clubs	  rank: nine	  location: unshuffled
+  suit: hearts	  rank: nine	  location: unshuffled
+  suit: diomond	  rank: nine	  location: unshuffled
+  suit: spades	  rank: ten	  location: unshuffled
+  suit: clubs	  rank: ten	  location: unshuffled
+  suit: hearts	  rank: ten	  location: unshuffled
+  suit: diomond	  rank: ten	  location: unshuffled
+  suit: spades	  rank: jack	  location: unshuffled
+  suit: clubs	  rank: jack	  location: unshuffled
+  suit: hearts	  rank: jack	  location: unshuffled
+  suit: diomond	  rank: jack	  location: unshuffled
+  suit: spades	  rank: queen	  location: unshuffled
+  suit: clubs	  rank: queen	  location: unshuffled
+  suit: hearts	  rank: queen	  location: unshuffled
+  suit: diomond	  rank: queen	  location: unshuffled
+  suit: spades	  rank: king	  location: unshuffled
+  suit: clubs	  rank: king	  location: unshuffled
+  suit: hearts	  rank: king	  location: unshuffled
+  suit: diomond	  rank: king	  location: unshuffled
+  suit: spades	  rank: ace	  location: unshuffled
+  suit: clubs	  rank: ace	  location: unshuffled
+  suit: hearts	  rank: ace	  location: unshuffled
+  suit: diomond	  rank: ace	  location: unshuffled
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+2
+
+name: dennis rodman
+ hand: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+	  bet: 0
+name: harry truman
+ hand: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+	  bet: 0
+name: oprah winfrey
+ hand: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+  suit: 	  rank: 	  location: 
+	  bet: 0
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+3
+
+Deck Shuffled! 
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+4
+
+  suit: diomond	  rank: jack	  location: shuffled
+
+  suit: hearts	  rank: ace	  location: shuffled
+
+  suit: clubs	  rank: nine	  location: shuffled
+
+  suit: spades	  rank: four	  location: shuffled
+
+  suit: clubs	  rank: seven	  location: shuffled
+
+  suit: diomond	  rank: nine	  location: shuffled
+
+  suit: spades	  rank: seven	  location: shuffled
+
+  suit: diomond	  rank: six	  location: shuffled
+
+  suit: clubs	  rank: ten	  location: shuffled
+
+  suit: diomond	  rank: two	  location: shuffled
+
+  suit: spades	  rank: five	  location: shuffled
+
+  suit: clubs	  rank: six	  location: shuffled
+
+  suit: hearts	  rank: seven	  location: shuffled
+
+  suit: diomond	  rank: four	  location: shuffled
+
+  suit: diomond	  rank: five	  location: shuffled
+
+  suit: clubs	  rank: five	  location: shuffled
+
+  suit: spades	  rank: queen	  location: shuffled
+
+  suit: hearts	  rank: six	  location: shuffled
+
+  suit: spades	  rank: eight	  location: shuffled
+
+  suit: clubs	  rank: queen	  location: shuffled
+
+  suit: diomond	  rank: king	  location: shuffled
+
+  suit: hearts	  rank: four	  location: shuffled
+
+  suit: clubs	  rank: ace	  location: shuffled
+
+  suit: diomond	  rank: queen	  location: shuffled
+
+  suit: hearts	  rank: eight	  location: shuffled
+
+  suit: clubs	  rank: four	  location: shuffled
+
+  suit: spades	  rank: nine	  location: shuffled
+
+  suit: clubs	  rank: two	  location: shuffled
+
+  suit: hearts	  rank: three	  location: shuffled
+
+  suit: clubs	  rank: eight	  location: shuffled
+
+  suit: diomond	  rank: ace	  location: shuffled
+
+  suit: clubs	  rank: three	  location: shuffled
+
+  suit: hearts	  rank: ten	  location: shuffled
+
+  suit: spades	  rank: two	  location: shuffled
+
+  suit: hearts	  rank: two	  location: shuffled
+
+  suit: hearts	  rank: nine	  location: shuffled
+
+  suit: clubs	  rank: jack	  location: shuffled
+
+  suit: hearts	  rank: jack	  location: shuffled
+
+  suit: hearts	  rank: five	  location: shuffled
+
+  suit: diomond	  rank: eight	  location: shuffled
+
+  suit: spades	  rank: three	  location: shuffled
+
+  suit: diomond	  rank: ten	  location: shuffled
+
+  suit: diomond	  rank: seven	  location: shuffled
+
+  suit: clubs	  rank: king	  location: shuffled
+
+  suit: spades	  rank: king	  location: shuffled
+
+  suit: spades	  rank: ace	  location: shuffled
+
+  suit: hearts	  rank: queen	  location: shuffled
+
+  suit: diomond	  rank: three	  location: shuffled
+
+  suit: spades	  rank: jack	  location: shuffled
+
+  suit: spades	  rank: six	  location: shuffled
+
+  suit: hearts	  rank: king	  location: shuffled
+
+  suit: spades	  rank: ten	  location: shuffled
+
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+5
+
+CARDS DEALT PRINT TABLE TO SEE HANDS
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+2
+
+name: dennis rodman
+ hand: 
+  suit: diomond	  rank: jack	  location: in hand
+  suit: spades	  rank: four	  location: in hand
+  suit: spades	  rank: seven	  location: in hand
+  suit: diomond	  rank: two	  location: in hand
+  suit: hearts	  rank: seven	  location: in hand
+	  bet: 0
+name: harry truman
+ hand: 
+  suit: hearts	  rank: ace	  location: in hand
+  suit: clubs	  rank: seven	  location: in hand
+  suit: diomond	  rank: six	  location: in hand
+  suit: spades	  rank: five	  location: in hand
+  suit: diomond	  rank: four	  location: in hand
+	  bet: 0
+name: oprah winfrey
+ hand: 
+  suit: clubs	  rank: nine	  location: in hand
+  suit: diomond	  rank: nine	  location: in hand
+  suit: clubs	  rank: ten	  location: in hand
+  suit: clubs	  rank: six	  location: in hand
+  suit: diomond	  rank: five	  location: in hand
+	  bet: 0
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+6
+
+Stock Pile:
+  suit: spades	  rank: queen	  location: stock pile
+
+  suit: hearts	  rank: six	  location: stock pile
+
+  suit: spades	  rank: eight	  location: stock pile
+
+  suit: clubs	  rank: queen	  location: stock pile
+
+  suit: diomond	  rank: king	  location: stock pile
+
+  suit: hearts	  rank: four	  location: stock pile
+
+  suit: clubs	  rank: ace	  location: stock pile
+
+  suit: diomond	  rank: queen	  location: stock pile
+
+  suit: hearts	  rank: eight	  location: stock pile
+
+  suit: clubs	  rank: four	  location: stock pile
+
+  suit: spades	  rank: nine	  location: stock pile
+
+  suit: clubs	  rank: two	  location: stock pile
+
+  suit: hearts	  rank: three	  location: stock pile
+
+  suit: clubs	  rank: eight	  location: stock pile
+
+  suit: diomond	  rank: ace	  location: stock pile
+
+  suit: clubs	  rank: three	  location: stock pile
+
+  suit: hearts	  rank: ten	  location: stock pile
+
+  suit: spades	  rank: two	  location: stock pile
+
+  suit: hearts	  rank: two	  location: stock pile
+
+  suit: hearts	  rank: nine	  location: stock pile
+
+  suit: clubs	  rank: jack	  location: stock pile
+
+  suit: hearts	  rank: jack	  location: stock pile
+
+  suit: hearts	  rank: five	  location: stock pile
+
+  suit: diomond	  rank: eight	  location: stock pile
+
+  suit: spades	  rank: three	  location: stock pile
+
+  suit: diomond	  rank: ten	  location: stock pile
+
+  suit: diomond	  rank: seven	  location: stock pile
+
+  suit: clubs	  rank: king	  location: stock pile
+
+  suit: spades	  rank: king	  location: stock pile
+
+  suit: spades	  rank: ace	  location: stock pile
+
+  suit: hearts	  rank: queen	  location: stock pile
+
+  suit: diomond	  rank: three	  location: stock pile
+
+  suit: spades	  rank: jack	  location: stock pile
+
+  suit: spades	  rank: six	  location: stock pile
+
+  suit: hearts	  rank: king	  location: stock pile
+
+  suit: spades	  rank: ten	  location: stock pile
+
+Discard Pile: 
+  suit: clubs	  rank: five	  location: discard pile
+
+.....FIVE CARD DRAW..... 
+============================ 
+
+1) Print Deck 
+2) Print Table 
+3) Shuffle Deck 
+4) Print Shuffled Deck 
+5) Deal 
+6) Print Stock and Discard Pile 
+7) QUIT 
+Please Enter Your Selection: 
+7
+
+Goodbye
+  suit: spades	  rank: two	  location: unshuffled
+ is less than   suit: clubs	  rank: two	  location: unshuffled
+
+  suit: spades	  rank: two	  location: unshuffled
+ is greater than or equal to   suit: clubs	  rank: two	  location: unshuffled
+
+]0;dpfouts@ubuntu: ~/cs202/project8adpfouts@ubuntu:~/cs202/project8a$ exit
+Script done on Thu 02 Apr 2015 10:26:35 PM PDT

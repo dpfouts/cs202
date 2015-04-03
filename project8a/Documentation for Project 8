@@ -1,0 +1,14 @@
+Documentation for Project 8
+
+	Most of the project was going smoothly until i got to dealing out the cards...
+i couldn't get my function to work to copy cards to the member array hand for my 
+player class.I realized after many hours that i didn't want the scope resoloution 
+operator in my class.h file.  this was throwing an error that lead to another error 
+and it just became a huge mess.
+	After figuring that out and being able to finally deal the cards the only
+difficulty came in the sheer amount of new code to write.  It was also difficult to 
+keep track of what variables were being used for what and which to use in the function
+and loop parameters.  Most mistakes made during this phase however where easy to remedy
+and once the original problem of not being able to deal cards using my sethand function
+was resolved the rest of the project was much more enjoyable and interesting.
+	 
